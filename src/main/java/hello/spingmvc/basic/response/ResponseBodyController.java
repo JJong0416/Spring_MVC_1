@@ -42,7 +42,7 @@ public class ResponseBodyController {
         return "ok";
     }
 
-    /* 위는 문자열을 처리할 때 사용, 아래는 Json을 처리할 때 사용 */
+    /* 위는 문자열을 처리 할 때 사용, 아래는 Json을 처리할 때 사용 */
 
     @GetMapping("/response-body-json-v1")
     public ResponseEntity<HelloData> responseBodyJsonV1() {
